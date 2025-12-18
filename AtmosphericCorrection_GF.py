@@ -8,7 +8,8 @@ import sys
 import tarfile            #解压缩
 import json
 import numpy as np
-import gdal
+# import gdal
+from osgeo import gdal   #直接导入失败
 import pdb
 import math
 import time
